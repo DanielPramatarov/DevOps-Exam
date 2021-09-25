@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: web-cont
-        image: "%IMAGE-NAME%:%IMAGE-TAG%"
+        image: danielpramatarov/dofexam:%IMAGE-PLACEHOLDER%
         ports:
         - containerPort: 80 
 ---

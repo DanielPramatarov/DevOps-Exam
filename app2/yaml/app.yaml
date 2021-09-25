@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: web-cont
-        image: danielpramatarov/exam-app-web:%tag%
+        image: "%IMAGE-NAME%:%IMAGE-TAG%"
         ports:
         - containerPort: 80 
 ---

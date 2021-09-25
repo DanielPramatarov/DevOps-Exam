@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: web-cont
-        image: danielpramatarov/dofexam:%IMAGE-PLACEHOLDER%
+        image: danielpramatarov/exam-app-web:%IMAGE-PLACEHOLDER%
         ports:
         - containerPort: 80 
 ---
